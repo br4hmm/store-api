@@ -1,2 +1,3 @@
-# store-api
-Store API built with Express.js &amp; MongoDB
+# Store Api
+
+Store API built with Express.js & MongoDB
