@@ -11,6 +11,7 @@ mongoose
     await Product.deleteMany();
     await Product.create(jsonProducts);
     console.log('Products.json has been added to the database!');
+    process.exit(0);
   })
   .catch(err => {
     console.log(err);
