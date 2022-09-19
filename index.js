@@ -1,7 +1,11 @@
+require('dotenv').config();
+require('express-async-errors');
+
 const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
-require('dotenv').config();
+const errorHandler = require('./middleware/error');
+const productsRoutes = require('./routes/products');
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -18,11 +22,15 @@ mongoose
   });
 
 app.use(morgan('dev'));
+app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('<h1>Store API</h1><a href="/api/v1/products">Products route</a>');
 });
 
+app.use('/api/v1/products', productsRoutes);
+
+app.use(errorHandler);
 app.use((req, res) => {
-  res.status(404).send('The route dose not exist!');
+  res.status(404).send('Route dose not exist!');
 });
