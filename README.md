@@ -15,7 +15,7 @@ Store API built with Express.js & MongoDB.
 $ node populate.js
 ```
 
-In `controllers/products.js`:
+In `controllers/products.js`
 
 ```js
 const getAllProductsStatic = async (req, res) => {
@@ -24,7 +24,7 @@ const getAllProductsStatic = async (req, res) => {
 };
 ```
 
-The result of `GET /api/v1/products/static`:
+The result of `GET /api/v1/products/static`
 
 ![screenshot 1](scn1.png)
 
