@@ -24,7 +24,7 @@ const getAllProductsStatic = async (req, res) => {
 };
 ```
 
-The result of `GET /api/v1/products/static` _Get all products that are from caressa and is featured._
+The result of `GET /api/v1/products/static` _Gets all products that are from caressa and is featured._
 
 ![screenshot 1](scn1.png)
 
