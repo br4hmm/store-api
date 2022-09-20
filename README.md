@@ -26,6 +26,52 @@ const getAllProductsStatic = async (req, res) => {
 
 The result of `GET /api/v1/products/static` _Gets all products that are from caressa and is featured._
 
-![screenshot 1](scn1.png)
+```json
+{
+  "nbHits": 4,
+  "products": [
+    {
+      "_id": "6328a23a64d168f04ca06fa4",
+      "name": "entertainment center",
+      "price": 59,
+      "featured": true,
+      "rating": 4.5,
+      "createdAt": "2022-09-19T17:09:02.775Z",
+      "company": "caressa",
+      "__v": 0
+    },
+    {
+      "_id": "6328a23a64d168f04ca06fa7",
+      "name": "modern bookshelf",
+      "price": 31,
+      "featured": true,
+      "rating": 4.5,
+      "createdAt": "2022-09-19T17:09:02.775Z",
+      "company": "caressa",
+      "__v": 0
+    },
+    {
+      "_id": "6328a23a64d168f04ca06fb2",
+      "name": "wooden table",
+      "price": 23,
+      "featured": true,
+      "rating": 4.5,
+      "createdAt": "2022-09-19T17:09:02.775Z",
+      "company": "caressa",
+      "__v": 0
+    },
+    {
+      "_id": "6328a23a64d168f04ca06fb3",
+      "name": "a first wooden table",
+      "price": 23,
+      "featured": true,
+      "rating": 4.5,
+      "createdAt": "2022-09-19T17:09:02.775Z",
+      "company": "caressa",
+      "__v": 0
+    }
+  ]
+}
+```
 
 _Enjoy 🤍_
