@@ -2,10 +2,12 @@
 
 Store API built with Express.js & MongoDB.
 
-## HTTP Methods
+## Routes
 
-- Get all products static &nbsp; &nbsp; `GET /api/v1/products/static`
-- Get all products &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `GET /api/v1/products`
+| About                   | HTTP Methods                  |
+| ----------------------- | ----------------------------- |
+| Get all products static | `GET /api/v1/products/static` |
+| Get all products        | `GET /api/v1/products`        |
 
 ## Demo
 
