@@ -17,7 +17,9 @@ Store API built with Express.js & MongoDB.
 $ node populate.js
 ```
 
-In `controllers/products.js`
+In `controllers/products.js`:
+
+1- For static searching:
 
 ```js
 const getAllProductsStatic = async (req, res) => {
@@ -74,6 +76,18 @@ The result of `GET /api/v1/products/static` _Gets all products that are from car
     }
   ]
 }
+```
+
+2- For dynamic searching:
+
+```js
+// add the function later...
+```
+
+The result of `GET /api/v1/products/..` _Gets all products that are..._
+
+```json
+// the result
 ```
 
 _Enjoy 🤍_

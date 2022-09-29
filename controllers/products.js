@@ -6,7 +6,7 @@ const getAllProductsStatic = async (req, res) => {
 };
 
 const getAllProducts = async (req, res) => {
-  res.status(200).json({ msg: 'Get all products' });
+  res.status(200).json(req.query);
 };
 
 module.exports = {
