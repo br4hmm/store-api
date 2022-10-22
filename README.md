@@ -1,6 +1,6 @@
 # Store API
 
-Store API built with Express.js & MongoDB.
+Store API with filter methods built with Express.js & MongoDB.
 
 ## Routes
 
