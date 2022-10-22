@@ -78,7 +78,7 @@ The result of `GET /api/v1/products/static` _Gets all products that are from car
 }
 ```
 
-2- For dynamic searching:
+2- For dynamic searching with filter methods:
 
 ```js
 // add the function later...
